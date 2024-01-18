@@ -73,7 +73,7 @@ font-family: "Montserrat", sans-serif;
     color: var(--color-botones-menu);
     font-family: anybody;
     font-weight: 500;
-    font-size: 18;
+    font-size: 25px;
 }
 
 
@@ -371,7 +371,6 @@ VERSION ANTERIOR SIN FLEXBOX
         grid-template-columns: 300px ; 
         grid-template-rows: repeat(6,1fr);
         margin-bottom: 50px;
-        margin-left: 0px;
     }
 }
     .tienda-galeria img{
@@ -382,8 +381,6 @@ VERSION ANTERIOR SIN FLEXBOX
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
-        margin-top: 60px;
-
     }
 
     .no-subrayado {
