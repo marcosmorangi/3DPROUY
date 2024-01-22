@@ -73,7 +73,7 @@ font-family: "Montserrat", sans-serif;
     color: var(--color-botones-menu);
     font-family: anybody;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 
@@ -336,62 +336,6 @@ VERSION ANTERIOR SIN FLEXBOX
     padding-top: 23.5px;
     
 }
-
-@media (max-width: 991px ){
-    .tienda-galeria {
-        grid-template-columns: repeat(2,380px); 
-        grid-template-rows: repeat(4,500px);
-    }
-
-    .links  {
-        max-width: 200px;
-        margin-left: 30px;
-        list-style-type: none;
-        display: flex;
-        flex-flow: row nowrap;
-        word-spacing: 1px;
-        margin-top: 30px;
-        gap: 10px;
-        position: fixed;
-    
-    }
-
-    .no-subrayado {
-        text-decoration: none;
-        color: var(--color-botones-menu);
-        font-family: anybody;
-        font-weight: 500;
-        font-size: 15px;
-    }
-    
-}
-
-@media (max-width: 480px ){
-    .tienda-galeria {
-        grid-template-columns: 300px ; 
-        grid-template-rows: repeat(6,1fr);
-        margin-bottom: 50px;
-    }
-}
-    .tienda-galeria img{
-        max-width: 300px;
-    }
-
-    .links  {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-    }
-
-    .no-subrayado {
-        font-size: 10px;
-    }
-
-    .logo img {
-        max-height: 50px;
-
-}
-
 
 
 /*GALERIA*/
