@@ -232,6 +232,39 @@ VERSION ANTERIOR SIN FLEXBOX
     color: var(--letras-botones-color);
 } 
 
+@media (max-width: 1200px){
+    .no-subrayado {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .links  {
+        max-width: 550px;
+        margin-left: 60px;
+        word-spacing: 1px;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 900px){
+    .no-subrayado {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .links  {
+        max-width: 550px;
+        margin-left: 290px;
+        word-spacing: 1px;
+        margin-top: 70px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 320px){
+
+}
 
 /* VERSION ANTERIOR SIN FLEXBOX
 .boton-odessa a {
@@ -355,3 +388,4 @@ VERSION ANTERIOR SIN FLEXBOX
     height: 150px;
 }
 
+_______________________________
