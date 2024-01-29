@@ -14,6 +14,8 @@ font-family: "Montserrat", sans-serif;
  --color-botones-menu: #3a3536;
 }
 
+
+
 .fondo-header {
     display: flex;
     justify-content: flex-start;
@@ -22,6 +24,16 @@ font-family: "Montserrat", sans-serif;
     height: 75px;
     position: fixed;
     margin-top: 0%;
+}
+
+.nav-input:checked + .nav-menu{
+background-color: tomato;
+}
+
+.nav-menu{
+    width: 100px;
+    height: 100px;
+    background-color: green;
 }
 
 .logo {
@@ -51,22 +63,16 @@ font-family: "Montserrat", sans-serif;
 
 }
 
-.ingresa {
-    margin-left: 730px; 
-    border-style: solid; 
-    padding: 1%;
-    margin-top: -10px;
+.links a::after{
+    content: "";
+    display: block;
+    background-color: var(--color-botones-menu);
+    width: 90%;
+    margin-top: 2px;
+    height: 3px;
 }
 
-.boton-ingresa {
-    text-decoration: none;
-    font-family: anybody;
-    font-weight: 500;
-    font-size: 18;
-    list-style-type: none;
-    border-color:#aaaaaa;
-    color: var(--color-botones-menu);
-}
+
 
 .no-subrayado {
     text-decoration: none;
@@ -75,6 +81,7 @@ font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 15px;
 }
+
 
 
 footer{
@@ -375,16 +382,17 @@ VERSION ANTERIOR SIN FLEXBOX
     max-height: 35px;
   }
 
-  @media (max-width: 1400px){
+    @media (max-width: 1400px){
     .footer-galeria{
         margin-top: 50%;
       }
     }
+
     @media (max-width: 1250px){
         .footer-galeria{
             margin-top: 150%;
           }
-        }
+        }   
 
      @media (max-width: 990px){
             .footer-galeria{
@@ -394,7 +402,7 @@ VERSION ANTERIOR SIN FLEXBOX
     
      @media (max-width: 770px){
             .footer-galeria{
-                margin-top: 700%;
+                margin-top: 300%;
               }
             }
 
