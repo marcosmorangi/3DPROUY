@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-@font-face {
-    font-family: "Anybody", sans-serif;
-font-family: "Montserrat", sans-serif;
-}
+    @font-face {
+        font-family: "Anybody", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    }
 
 :root {
  --color-principal: #fffbf5;
@@ -15,7 +15,17 @@ font-family: "Montserrat", sans-serif;
 }
 
 
+nav{
+    background-color: red;
+    height: 65px;
+    width: 100%;
+}
 
+.enlace
+
+
+
+/*   HEADER FUNCIONAL
 .fondo-header {
     display: flex;
     justify-content: flex-start;
@@ -26,36 +36,6 @@ font-family: "Montserrat", sans-serif;
     margin-top: 0%;
 }
 
-.nav-label{
-display: none;
-}
-
-.nav-input{
-    display: none;
-}
-
-.nav-input:checked + .nav-menu{
-background-color: tomato;
-}
-
-
-
-@media (max-width: 770px) {
-    .links{
-        display: block;
-        top: 50px;
-        bottom: 0;
-        background-color: violet;
-    }
-    .nav-label{
-        display: block;
-        cursor: pointer;
-    }
-    .nav-menu{
-        
-    }
-
-}
 
 .logo {
     display: flex;
@@ -88,14 +68,6 @@ background-color: tomato;
 
 }
 
-
-
-.links:hover{
-    
-}
-
-
-
 .no-subrayado {
     text-decoration: none;
     color: var(--color-botones-menu);
@@ -119,7 +91,7 @@ background-color: tomato;
 .no-subrayado:hover{
     --clippy: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 }
-
+*/
 
 footer{
     display:flex;
@@ -509,4 +481,3 @@ VERSION ANTERIOR SIN FLEXBOX
     height: 150px;
 }
 
-_______________________________
