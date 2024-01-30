@@ -16,7 +16,7 @@
 
 
 nav{
-    background-color: red;
+    background-color:var(--color-principal);
     height: 85px;
     width: 100%;
 }
