@@ -508,45 +508,4 @@ VERSION ANTERIOR SIN FLEXBOX
 /*TIENDA*/
 
 .productos{
-    margin-bottom: 80px;
-}
 
-
-.tienda-galeria {
-    margin-top: 250px;
-    display: grid;
-    grid-template-columns: repeat(3,380px); 
-    grid-template-rows: repeat(3,500px);
-    justify-content: center;
-    gap: 65px;
-}
-
-.tienda-galeria img {
-    max-width: 380px;
-}
-
-
-
-.boton-principal-tienda {
-    background-color: var(--color-botones-menu);
-    height: 65px;
-    width: 295px;
-    margin: auto;
-    position: relative;
-   
-}
-
-.cotizacion {
-    text-decoration: none;
-}
-
-.boton-principal-tienda p {
-    color: var(--letras-botones-color);
-    font-family: anybody;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 23.5px;
-    
-    
-}
