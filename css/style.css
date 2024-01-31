@@ -507,5 +507,49 @@ VERSION ANTERIOR SIN FLEXBOX
 
 /*TIENDA*/
 
-.productos{
+.galeria h3{
+    text-align: center;
+    font-family: anybody;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 0;
+}
 
+a{
+    text-decoration: none;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.contenido{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s ease;
+    background-color: var(--letras-botones-color);
+    border-radius: 0%;
+}
+
+.contenido:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+.galeria img{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
