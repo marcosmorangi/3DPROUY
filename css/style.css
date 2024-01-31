@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
     @font-face {
@@ -12,7 +13,9 @@
  --color-principal: #fffbf5;
  --letras-botones-color: #ffecd4;
  --color-botones-menu: #3a3536;
+ --color-hover-botones: goldenrod;
 }
+
 
 
 nav{
@@ -364,6 +367,11 @@ VERSION ANTERIOR SIN FLEXBOX
     list-style-type: none;
 }
 
+.botones-galeria li:hover{
+    background-color: var(--color-hover-botones);
+    transition: 0.3s ease;
+}
+
 .botones-galeria a {
     text-decoration: none;
     font-family: anybody;
@@ -371,71 +379,25 @@ VERSION ANTERIOR SIN FLEXBOX
     color: var(--letras-botones-color);
 } 
 
-
-
-
-
-/* VERSION ANTERIOR SIN FLEXBOX
-.boton-odessa a {
-    display: inline-block;
-    height: 30px;
-    width: 150px;
-    text-align: center;
-    padding-top: 1%;
-    background-color: #3a3536;
-    text-decoration: none;
-    font-family: anybody;
-    font-weight: 600;
-    color: #ffecd4;
-    margin-left: 200px;
-    margin-bottom: 180px;
-
+.container{
+    margin-top: 180px;
+    height: 900px;
+  }
+  
+.row{
+    height: 200px;
 }
 
-.boton-maia a {
-    display: inline-block;
-    height: 30px;
-    width: 150px;
-    text-align: center;
-    padding-top: 1%;
-    background-color: #3a3536;
-    text-decoration: none;
-    font-family: anybody;
-    font-weight: 600;
-    color: #ffecd4;
-    margin-left: 327px;
-    margin-bottom: 180px;
-}
-
-.boton-gaia a {
-    display: inline-block;
-    height: 30px;
-    width: 150px;
-    text-align: center;
-    padding-top: 1%;
-    background-color: #3a3536;
-    text-decoration: none;
-    font-family: anybody;
-    font-weight: 600;
-    color: #ffecd4;
-    margin-left: 327px;
-    margin-bottom: 180px;
-
-}
-*/
-
-
-/* .tienda-galeria img {
-    max-width: 380px;
-    margin-bottom: 235px;
-}
-
-.tienda-galeria {
-    margin-top: 250px;
+.row1{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-} */
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+
+
+
 
 
 
@@ -541,6 +503,8 @@ VERSION ANTERIOR SIN FLEXBOX
             }
 
   
+
+
 /*TIENDA*/
 
 .productos{
@@ -586,22 +550,3 @@ VERSION ANTERIOR SIN FLEXBOX
     
     
 }
-
-
-/*GALERIA*/
-  .container{
-    margin-top: 180px;
-    height: 900px;
-  }
-  
-.row{
-    height: 200px;
-}
-
-.row1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 150px;
-}
-
