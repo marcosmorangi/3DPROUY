@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+    @font-face {
+        font-family: "Anybody", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    }
+
+:root {
+ --color-principal: #fffbf5;
+ --letras-botones-color: #ffecd4;
+ --color-botones-menu: #3a3536;
+ --color-hover-botones: goldenrod;
+}

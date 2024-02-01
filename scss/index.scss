@@ -1,0 +1,135 @@
+body {
+    background-color: var(--color-principal);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family:anybody;
+    font-weight:500;
+    margin-top: 180px;
+}
+
+.subtitulo h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family:anybody;
+    font-weight:300;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+.nordico {
+    background-image: url(../img/Nordico\ 1\ final.png);
+    background-color: var(--color-principal);
+    height: 500px;
+    margin-top: 105px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+
+
+.boton-principal {
+    background-color: var(--color-botones-menu);
+    height: 65px;
+    width: 295px;
+    margin: auto;
+    position: relative;
+    outline: none;
+    cursor:pointer;
+    
+        p{
+            color: var(--letras-botones-color);
+            font-family: anybody;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            padding-top: 23.5px;
+
+            &:hover{
+                color: var(--color-botones-menu);
+                transition: .3s ease;
+            }
+        }
+
+        &:hover{
+        background-color: var(--color-hover-botones);
+        transition: .3s ease;
+    }
+}
+
+
+
+.cotizacion {
+    text-decoration: none;
+}
+
+
+.galeria-inicio{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,380px);
+    grid-template-rows: 380px;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+
+    img{
+        max-width: 380px;
+    }
+}
+
+.botones-galeria {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap: 40px;    
+
+    li{
+        height: 30px;
+    width: 150px;
+    text-align: center;
+    outline: none;
+    cursor:pointer;
+    padding-top: 1%;
+    background-color: var(--color-botones-menu);
+    margin-bottom: 180px;
+    list-style-type: none;
+
+        &:hover{
+            background-color: var(--color-hover-botones);
+            transition: 0.3s ease;
+        }
+    }
+
+    a{
+    text-decoration: none;
+    font-family: anybody;
+    font-weight: 600;
+    color: var(--letras-botones-color);
+
+        &:hover{
+            color: var(--color-botones-menu);
+            transition: .3s ease;
+        }
+    }
+}
+
+.container{
+    margin-top: 180px;
+    height: 900px;
+  }
+  
+.row{
+    height: 200px;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}

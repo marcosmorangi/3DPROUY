@@ -1,5 +1,5 @@
 {
-  "name": "3dprouy",
+  "name": "3dprouy-copy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.70.0"
-  }
+  "license": "ISC"
 }
