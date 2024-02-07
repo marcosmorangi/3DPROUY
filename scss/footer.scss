@@ -1,13 +1,15 @@
-footer{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-    background-color: var(--color-botones-menu);
-    margin-bottom: 0%;    
+    footer{
+        position: relative;
+        width: 100%;
+        background-color: var(--color-botones-menu);
+        min-height: 500px;
+        padding: 20px 50px;
+    
+        img{
+            align-items: center;
+            max-height: 35px;
+        }
+        }
 
-    img{
-        align-items: center;
-        max-height: 35px;
-    }
-    }
+
+

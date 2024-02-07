@@ -4,6 +4,18 @@ a{
     text-decoration: none;
 }
 
+.tienda-galeria{
+    display: flex;
+    margin: auto;
+    
+    h1{
+        text-align: center;
+    font-family: anybody;
+    font-size: 30px;
+    font-weight:500;
+    }
+}
+
 .contenido{
     width: 20%;
     margin: 15px;
