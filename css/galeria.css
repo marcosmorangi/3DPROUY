@@ -17,15 +17,6 @@
   z-index: 3;
 }
 
-.gallery {
-  display: grid;
-  max-width: 100%;
-  margin-bottom: 0 auto;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: repeat(150px, auto);
-}
-
 .gallery-item {
   max-width: 100%;
   border-radius: 5px;
