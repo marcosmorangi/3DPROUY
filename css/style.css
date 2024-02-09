@@ -192,6 +192,10 @@ footer .menu li a:hover {
   transition: 0.3s ease;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-principal);
 }
