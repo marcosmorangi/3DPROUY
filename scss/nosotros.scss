@@ -1,0 +1,72 @@
+$color-principal: #fffbf5;
+$letras-botones-color: ffecd4;
+$color-botones-menu: 3a3536;
+$color-hover-botones: goldenrod;
+
+.nosotros{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50vh;
+
+    h2{
+        margin-left: 20%;
+        font-family: anybody;
+        color: rgba(36, 36, 36, 0.4);
+        font-size: 5em;
+        font-weight: 500;
+        padding: 0 100px;
+
+        span{
+            position: relative;
+            color: rgba(36, 36, 36, 0.18);
+            animation: displayText 9s infinite;
+            animation-delay: calc(-3s * var(--i));
+
+            &::before{
+                content: attr(data-text);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                color: black;
+                overflow: hidden;
+                border-right: 4px solid black;
+                animation: animate 3s linear infinite;
+            }
+        }
+    }
+}
+
+@keyframes displayText{
+    0%{
+        display: inline-block;
+    }
+    33%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 952px){
+    
+    .nosotros{
+        h2{
+            font-size: 3em;
+            margin-left: 5%;
+        }
+    }
+}
+    
