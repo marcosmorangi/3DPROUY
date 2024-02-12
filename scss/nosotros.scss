@@ -6,8 +6,8 @@ $color-hover-botones: goldenrod;
 .nosotros{
     display: flex;
     align-items: center;
+    margin-top: 200px;
     width: 100%;
-    min-height: 50vh;
 
     h2{
         margin-left: 20%;
@@ -29,7 +29,7 @@ $color-hover-botones: goldenrod;
                 top: 0;
                 left: 0;
                 width: 100%;
-                color: black;
+                color: var(--color-botones-menu);
                 overflow: hidden;
                 border-right: 4px solid black;
                 animation: animate 3s linear infinite;

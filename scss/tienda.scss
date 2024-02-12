@@ -1,4 +1,7 @@
-
+$color-principal: #fffbf5;
+$letras-botones-color: ffecd4;
+$color-botones-menu: 3a3536;
+$color-hover-botones: goldenrod;
 
 a{
     text-decoration: none;
@@ -10,9 +13,9 @@ a{
     
     h1{
         text-align: center;
-    font-family: anybody;
-    font-size: 30px;
-    font-weight:500;
+        font-family: anybody;
+        font-size: 30px;
+        font-weight:500;
     }
 }
 
@@ -26,12 +29,12 @@ a{
     padding-top: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: .4s ease;
-    background-color: var(--color-principal);
+    background-color: $color-principal;
     border-radius: 0%;
 
     &:hover{
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
     }
 }
 
@@ -45,6 +48,7 @@ a{
     h3{
     text-align: center;
     font-family: anybody;
+    color: var(--color-botones-menu);
     font-size: 30px;
     font-weight:500;
     margin: 0;
@@ -100,6 +104,13 @@ a{
         outline: none;
         cursor: pointer;
         margin-top: 25px;
+
+        &:hover{
+            background-color: $color-hover-botones;
+            transition: .2s ease;
+            color: var(--color-botones-menu);
+            font-weight: 600;
+        }
     }
 
 }

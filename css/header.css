@@ -26,7 +26,7 @@ header nav ul li a::after, header nav ul li.active::after {
   content: "";
   display: block;
   background-color: var(--color-botones-menu);
-  width: 90%;
+  width: 100%;
   margin-top: 2px;
   height: 2px;
   clip-path: var(--clippy);

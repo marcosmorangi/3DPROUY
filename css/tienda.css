@@ -23,7 +23,7 @@ a {
   padding-top: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: 0.4s ease;
-  background-color: var(--color-principal);
+  background-color: #fffbf5;
   border-radius: 0%;
 }
 .contenido:hover {
@@ -41,6 +41,7 @@ a {
 .galeria h3 {
   text-align: center;
   font-family: anybody;
+  color: var(--color-botones-menu);
   font-size: 30px;
   font-weight: 500;
   margin: 0;
@@ -90,6 +91,12 @@ a {
   outline: none;
   cursor: pointer;
   margin-top: 25px;
+}
+.galeria button:hover {
+  background-color: goldenrod;
+  transition: 0.2s ease;
+  color: var(--color-botones-menu);
+  font-weight: 600;
 }
 
 @media (max-width: 1000px) {
